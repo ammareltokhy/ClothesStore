@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Roboto+Slab:wght@300;400;600;700&display=swap');
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+h2{
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	font-size: 24pt;
+	margin-bottom: 20px;
+}
+p{
+	font-family: 'Roboto Slab', serif;
+	font-style: normal;
+	font-weight: 300;
+	color: rgb(0, 0, 0);
+	font-size: 14pt;
+}
+
+    /*   Mission Page   */
+#mission{
+	padding: 40px 0;
+	min-height: 350px;
+	background-color: rgb(228, 210, 157);
+	background-image: -webkit-linear-gradient(270deg, rgb(238, 240, 138) 0%, rgb(129, 154, 45) 100%);
+	background-image: -moz-linear-gradient(270deg, rgb(238, 240, 138) 0%, rgb(129, 154, 45) 100%);
+	background-image: -o-linear-gradient(270deg, rgb(238, 240, 138) 0%, rgb(129, 154, 45) 100%);
+	background-image: linear-gradient(180deg, rgb(238, 240, 138) 0%, rgb(129, 154, 45) 100%);
+}
+
+    /*   Services Page   */
+#services{
+	margin:30px 0;
+}
+#services img{
+	max-width: 80px;
+}
+article{
+	text-align: center;
+	margin-bottom: 20px;
+}
+#services h3{
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal ;
+	font-weight: 300;
+	color: rgb(0, 0, 0);
+	font-size: 20pt;
+	margin: 10px 0;
+}
+
+    /*   Staff Page   */
+#staff{
+	padding: 30px 0;
+	min-height: 450px;
+	background-color: rgb(228, 210, 157);
+	background-image: -webkit-linear-gradient(270deg, rgb(228, 210, 157) 0%, rgb(205, 174, 80) 100%);
+	background-image: -moz-linear-gradient(270deg, rgb(228, 210, 157) 0%, rgb(205, 174, 80) 100%);
+	background-image: -o-linear-gradient(270deg, rgb(228, 210, 157) 0%, rgb(205, 174, 80) 100%);
+	background-image: linear-gradient(180deg, rgb(228, 210, 157) 0%, rgb(205, 174, 80) 100%);
+}
+#staff img {
+	max-width: 100%;
+	border-radius: 50%;
+}
+.doctor{
+	margin-bottom: 20px;
+}
+#staff h3{
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal ;
+	font-weight: 600;
+	color: rgb(77, 14, 14);
+	font-size: 20pt;
+	margin: 5px 0;
+}
+
+
+    /*   Testimonials Page   */
+
+blockquote{
+	min-height: 500px;
+	position: relative;
+}
+.quote{
+	position: absolute;
+	width:75%;
+	background-color: rgba(255, 255, 255, 0.60);
+	bottom: 0;
+	left:0;
+	border-top-right-radius: 40px;
+}
+#janeh{
+	background-image: url(../images/testimonial-janeh.jpg);
+	background-size: cover;
+	background-position-x: center;
+}
+#mcphersons{
+	background-image: url(../images/testimonial-mcphersons.jpg);
+	background-size: cover;
+	background-position-x: center;
+}
+#johnb{
+	background-image: url(../images/testimonial-johnb.jpg);
+	background-size: cover;
+	background-position-x: center;
+}
+#lorraines{
+	background-image: url(../images/testimonial-lorraines.jpg);
+	background-size: cover;
+	background-position-x: center;
+}

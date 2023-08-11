@@ -1,0 +1,296 @@
+
+body{
+    background-color: #faf9f8;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #e8e8e8e9;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.nav-link:hover{
+    text-decoration: underline red;
+    opacity: .7;
+
+
+}
+.carousel-item{
+    background-position: center;
+    background-size: cover;
+
+}
+#trendh{
+    color: rgb(195, 6, 6);
+    font-weight: 800;
+    font-family: 'satisfy', 'Arial Narrow', Arial, sans-serif;
+}
+#summer{
+    background-image: url(./images/summer2.png);
+    background-size: cover;
+    height: 50rem;
+   
+}
+
+
+#summerh{
+    margin-top: 30rem;
+    font-size: 32px;
+    font-weight: 800;
+    color: #faf9f8;
+   
+}
+#summerp{
+    font-size: 18px;
+    color: antiquewhite;
+   
+}
+.categoryp:hover{
+    font-weight: 600;
+
+}
+#magazine{
+    background-color: bisque;
+}
+#categoryh{
+    font-weight: 800;
+    font-family:   'Ubuntu' ,sans-serif;
+}
+#magazineh{
+    font-weight: 800;
+    color: rgb(66, 45, 117);
+}
+/* ----------------------------- */
+.aside{
+    background-color: rgb(93, 22, 90);
+    
+}
+.card{
+    display:inline-block !important;
+    height: min-content;
+
+}
+.aaside{
+    color: blanchedalmond;
+    font-family:  'Ubuntu', sans-serif;
+    margin-top: 2rem;
+}
+.aaside:hover{
+    color:  rgb(210, 196, 175);
+}
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
+
+
+.cart{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 3px;
+    width: 80px;
+    
+}
+.fa-solid{
+    color: goldenrod;
+}
+.cart p{
+    height: 22px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+    background-color: gold;
+    color: #f9f8f8;
+}
+
+
+
+
+footer i{
+    font-size: xx-large;
+ margin-right: 2rem;
+}
+
+.contact{
+  
+    text-align: center;
+    justify-content: center;
+  
+}
+.icontact{
+  
+    display: inline;
+}
+footer p{
+    display: inline;
+}
+.text-light{
+    padding-top: 2rem;
+}
+#loc:hover{
+    color: rgb(218, 218, 36);
+    cursor: pointer;
+}
+#info:hover{
+    color: aqua;
+    cursor: pointer;
+}
+#tel:hover{
+    color: rgb(13, 195, 13);
+    cursor: pointer;
+}
+#facebook:hover{
+    color: blue;
+    cursor: pointer;
+}
+#twitter:hover{
+    color: blue;
+    cursor: pointer;
+}
+#instagram:hover{
+    color: red;
+    cursor: pointer;
+}
+/* .container{
+    display: flex;
+    width: 70%;
+    margin-bottom: 30px;
+
+} */
+/* #root{
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.sidebar{
+
+    width: 40%;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 20px;
+    padding: 15px;
+    text-align: center;
+} 
+.head{
+    background-color: goldenrod;
+    border-radius: 3px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #f9f8f8;
+    display: flex;
+    align-items: center ;
+} 
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    padding: 5px 0px;
+    border-top: 1px solid black;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    padding: 15px;
+
+}
+.img-box{
+    width: 100%;
+    height: 180px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+.images{
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: cover;
+    object-position: center;
+}
+.bottom{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+
+}
+
+#total{
+    font-size: 20px;
+    color: red;
+}
+button{
+    width: 100%;
+position: relative;
+border: none;
+border-radius: 5px;
+background-color: gold;
+padding: 7px 25px;
+cursor: pointer;
+color: #f9f8f8;
+}
+button:hover{
+    background-color: rgb(40, 37, 37);
+}
+.cart-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f9f8f8;
+    border-bottom: 1 solid white;
+    border-radius:  3px;
+    margin: 10px 10px;
+
+}
+.row-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid gold;
+    display: flex;
+    align-items: center;
+
+}
+.rowimg{
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 20%;
+}
+.bi:hover{
+    cursor: pointer;
+    color: rgb(62, 46, 46);
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

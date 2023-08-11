@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="cart.css">
+    <title>Document</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-light navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img width="20%" src="https://eg.hm.com/themes/custom/transac/alshaya_hnm/site-logo.svg?tY6kjl" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                 
+          
+          <li class="nav-item ">
+            <a class="nav-link active  fs-5 fw-b" aria-current="page" href="women.html">Women</a>
+          </li>
+          <li class="nav-item text-danger">
+            <a class="nav-link active fs-5 fw-b" aria-current="page" href="men.html">Men</a>
+            <li class="nav-item ">
+              <a class="nav-link active  fs-5 fw-b" aria-current="page" href="kids.html">Kids</a>
+            </li>
+            <li class="nav-item text-danger">
+              <a class="nav-link active  fs-5 fw-b" aria-current="page" href="HMHome.html">H&M Home</a>
+
+            </ul>
+        <ul class="navbar-nav ms-auto mb-2   mb-lg-0">
+          <li class="nav-item ">
+            <a class="nav-link active text-primary  fs-5 fw-b" aria-current="page" href="login.html">contact us</a>
+          </li>
+          <li class="nav-item text-danger">
+            <a class="nav-link active text-primary fs-5 fw-b" aria-current="page" href="#">Find Store</a>
+          </li>
+          <li class="cart">
+            <i class="bi fs-5 text-danger bi-cart3"></i><p id="count">0</p>
+          </li>
+          
+        </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+  <!-- --------------------------------------------- -->
+<div  id="buttons" class="catgh  container">
+
+  <button class="button-value" onclick="filterproduct('all')">All</button>
+  <button class="button-value" onclick="filterproduct('shirts')">SHIRTS</button>
+  <button class="button-value" onclick="filterproduct('trouser')">TROUSERS</button>
+  <button class="button-value" onclick="filterproduct('shoes')">SHOES</button>
+  <button class="button-value" onclick="filterproduct('tops')">TOPS</button>
+
+</div>
+ 
+  
+
+<div class="cart "></div>
+</div>
+<div class="container">
+<div id="root"></div>
+<div class="sidebar">
+<div class="head  mt-4 "><p>My cart</p></div>
+<div id="cartItem">your cart is empty</div>
+ <div class="foot">
+    <h3>total</h3>
+    <h2 id="total">$ 0.00</h2>
+    </div>
+  </div>
+</div>
+
+
+    <script src="men.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

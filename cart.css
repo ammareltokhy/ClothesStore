@@ -1,0 +1,273 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header{
+    height: 80px;
+    width: 70%;
+    background-color: gold;
+    border-radius: 3px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.header .logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: aliceblue;
+
+}
+.cart{
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+   
+    border-radius: 3px;
+    width: 50px; 
+    
+}
+.fa-solid{
+    color: goldenrod;
+}
+.cart p{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgb(255, 252, 252);
+    color: #be0c0c;
+    display: inline;
+    margin-left: 5px;
+}
+.container{
+    display: flex;
+    width: 100%;
+   
+
+}
+#root{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)!important;
+    
+}
+.sidebar{
+
+    width: 40%;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 20px;
+    padding: 5px;
+    text-align: center;
+} 
+.head{
+    background-color: goldenrod;
+    border-radius: 3px;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 2px;
+    color: #f9f8f8;
+    display: flex;
+    align-items: center ;
+} 
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    padding: 5px 0px; 
+    border-top: 1px solid black;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  
+    border-radius: 5px;
+    padding: 1px;
+
+}
+.img-box{
+    width: 70%;
+    height: 80px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+.images{
+    max-width: 90%;
+    max-height: 80%;
+    object-fit: cover;
+    object-position: center;
+} 
+.bottom{
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+
+}
+
+h2{
+    font-size: 20px;
+    color: rgb(168, 41, 41);
+}
+ button{
+    width: 80%;
+position: relative;
+border: none;
+border-radius: 5px;
+background-color: rgb(28, 16, 101);
+
+cursor: pointer;
+color: #f9f8f8;
+}
+button:hover{
+    background-color: rgb(40, 37, 37);
+} 
+.cart-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+    background-color: #f9f8f8;
+    border-bottom: 1 solid white;
+    border-radius:  3px;
+    margin: 5px 5px;
+
+}
+.row-img{
+    width: 50px;
+    height: 90px;
+    border-radius: 50px;
+    
+    display: flex;
+    align-items: center;
+   
+
+}
+.rowimg{
+    margin-bottom: 15px;
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 20%;
+}
+.bi:hover{
+    cursor: pointer;
+    color: rgb(233, 83, 83);
+
+}
+.prodname{
+    font-weight: bold;
+    font-size: 22px;
+}
+.category{
+    margin-top: 100px;
+    display: inline-block;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bolder;
+    margin-left: 90px;
+    margin-right: 50px;
+    flex-direction: row;
+    color: rgb(255, 254, 254);
+}
+.catgh{
+    background-color: rgb(81, 11, 70);
+    border-radius: 6px;
+    margin-top: 100px;
+}
+.activer{
+    background-color: aqua;
+    color: black;
+}
+.hide{
+    display: none;
+}
+
+
+
+
+
+
+footer i{
+    font-size: xx-large;
+ margin-right: 2rem;
+}
+
+footer .contact{
+  
+    text-align: center;
+    justify-content: center;
+  
+}
+.icontact{
+  
+    display: inline;
+}
+footer p{
+    display: inline;
+}
+footer .text-light{
+    padding-top: 2rem;
+}
+#loc:hover{
+    color: rgb(218, 218, 36);
+    cursor: pointer;
+}
+ footer #info:hover{
+    color: aqua;
+    cursor: pointer;
+}
+#tel:hover{
+    color: rgb(13, 195, 13);
+    cursor: pointer;
+}
+#facebook:hover{
+    color: blue;
+    cursor: pointer;
+}
+#twitter:hover{
+    color: blue;
+    cursor: pointer;
+}
+#instagram:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
